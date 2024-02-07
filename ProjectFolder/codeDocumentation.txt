@@ -1,0 +1,14 @@
+
+ The system checks and validates the users credentials to ensure they match with the default credentials;
+
+ It starts with the function key word with two parameters set that is userEmail and the password;
+
+ These are assigned with  constant values that is 'gilbertorishaba4@gmail.com' and 22/U/6828@2024;
+
+ These are checked using the if condition to validate if the input values match to the default values;
+
+ We use '===' because its a strict equality operator and in our code it ensures that both values thats the 'userEmail' and the 'password' must exactly be the same;
+
+ If the condition is satisfied it displays a user email and a successful login message to the user;
+
+ Incase there is a mismatch in the credentials it diplays incorrect details which prompts the user to try again;  
